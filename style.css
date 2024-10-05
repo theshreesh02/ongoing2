@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: background 0.3s ease-in, color 0.1s ease-out;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    object-fit: cover; 
+}
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    /* color: white; */
+    font-size: 2em;
+    padding: 20px;
+}
+
+/* confirmed  */
+
+#head{
+    text-align: center;
+    font-family: 'ariel';
+    margin-top: 20px;
+    /* color: #FFD700; */ 
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+#image{
+    height: 25px;
+    filter: brightness(0) saturate(100%) invert(53%) sepia(98%) saturate(573%) hue-rotate(6deg) brightness(102%) contrast(102%);
+}
+/* button{
+    background-color: black;
+    color: white;
+} */
+input{
+    border-radius: 10px;
+}
+form{
+    text-align: center;
+}
+/* form{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50%;
+} */
+input{
+    height: 30px;
+    text-align: center;
+}
+#time{
+    position: static;
+    /* color: #FFD700; */
+    text-align: end;
+    font-size: 200%;
+}
+#box{
+    position: absolute;
+    text-align: center;
+    /* background-color: black; */
+    /* color: white;
+    border: 5px solid; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 400px;
+}
+/* tr{
+    display: block;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+td{
+    padding-left: 45px;
+}
+#torch{
+    position: static;
+    color: #FFD700;
+    text-align: start;
+
+}
+
+.box1{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#mode1{
+    background-color: transparent;
+}
+#power{
+    height: 30px;
+    border: 0px;
+}
+.dark{
+    color: black;
+}
+.light{
+    color: white;
+}
